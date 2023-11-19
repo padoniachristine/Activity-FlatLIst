@@ -32,7 +32,7 @@ export default function App() {
                 </Text>
                 <Text style = {styles.address}>{item.address}</Text>
               </View>
-              <TouchableOpacity onPress = {() => showFullname(`${'Name: '}${item.name.firstname}${item.name.lastname}${'\n'}${'Nickname: '}${item.nickname}${'\n'}${'Address: '}${item.address}${'\n'}${'Course and Year: '}${item.courseAndYear}`)}>
+              <TouchableOpacity onPress = {() => showFullname(`${'Name: '}${item.name.firstname}${' '}${item.name.lastname}${'\n'}${'Nickname: '}${item.nickname}${'\n'}${'Address: '}${item.address}${'\n'}${'Course and Year: '}${item.courseAndYear}`)}>
               <Icon name = "dots-three-horizontal" size={20} color="black" />
               </TouchableOpacity>
             </View>
